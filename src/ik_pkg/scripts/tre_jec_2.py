@@ -6,6 +6,8 @@ from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from std_msgs.msg import Float32MultiArray
 
+# This is used for gait controller and it will publish the foot pose on the foot_pose topic
+
 class SingleLegTrajectoryPublisher(Node):
     def __init__(self):
         super().__init__('single_leg_trajectory_publisher')
