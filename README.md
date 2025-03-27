@@ -1,4 +1,4 @@
-# Spot robot simulation in MuJoCo with gait controllers
+# Spot robot simulation in MuJoCo with gait controller and navigation
 
 ## FK of a leg:-
 
