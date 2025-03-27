@@ -7,6 +7,7 @@ from std_msgs.msg import Float32MultiArray
 from communication.msg import ActuatorCmds
 
 # Link lengths
+# this is used to get the joint pose and publish that pose
 L1 = 0.11  # Hip to thigh joint
 L2 = 0.321  # Thigh length
 L3 = 0.335  # Shin length
