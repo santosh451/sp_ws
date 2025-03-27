@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/build/communication/rosidl_typesupport_introspection_cpp/communication/srv/detail/gait_switch__rosidl_typesupport_introspection_cpp.hpp

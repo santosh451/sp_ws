@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/src/navigation/launch/wd_world.launch.py

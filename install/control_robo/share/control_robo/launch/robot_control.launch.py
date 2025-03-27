@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/src/control_robo/launch/robot_control.launch.py

@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/build/control_robo/ament_cmake_core/control_roboConfig.cmake

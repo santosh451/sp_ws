@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/build/cartographer_slam/launch/cartographer.launch.py

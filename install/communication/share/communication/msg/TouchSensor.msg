@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/src/communication/msg/TouchSensor.msg

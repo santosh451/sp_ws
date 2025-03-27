@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/src/ik_pkg/scripts/tre_jec_2.py

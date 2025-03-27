@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/build/ik_pkg/ament_cmake_core/ik_pkgConfig-version.cmake

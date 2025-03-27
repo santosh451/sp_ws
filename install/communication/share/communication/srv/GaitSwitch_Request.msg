@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/build/communication/rosidl_cmake/srv/GaitSwitch_Request.msg

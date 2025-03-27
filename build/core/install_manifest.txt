@@ -1,3 +1,0 @@
-/home/santosh/sp_ws/install/core/lib/libcore.so
-/home/santosh/sp_ws/install/core/share/core/cmake/core_TargetsExport.cmake
-/home/santosh/sp_ws/install/core/share/core/cmake/core_TargetsExport-noconfig.cmake

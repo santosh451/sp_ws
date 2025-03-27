@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/build/communication/rosidl_generator_py/communication/srv/__init__.py

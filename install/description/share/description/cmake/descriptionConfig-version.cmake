@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/build/description/ament_cmake_core/descriptionConfig-version.cmake

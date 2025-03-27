@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/src/ik_pkg/launch/pose_pub.launch.py

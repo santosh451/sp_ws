@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/build/communication/rosidl_typesupport_fastrtps_c/communication/msg/detail/actuator_cmds__rosidl_typesupport_fastrtps_c.h

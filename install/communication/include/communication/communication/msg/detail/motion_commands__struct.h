@@ -1,1 +1,0 @@
-/home/santosh/sp_ws/build/communication/rosidl_generator_c/communication/msg/detail/motion_commands__struct.h
