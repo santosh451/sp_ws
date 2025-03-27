@@ -1,0 +1,16 @@
+/home/santosh/sp_ws/install/control_robo/share/control_robo/launch/robot_control.launch.py
+/home/santosh/sp_ws/install/control_robo/share/ament_index/resource_index/package_run_dependencies/control_robo
+/home/santosh/sp_ws/install/control_robo/share/ament_index/resource_index/parent_prefix_path/control_robo
+/home/santosh/sp_ws/install/control_robo/share/control_robo/environment/ament_prefix_path.sh
+/home/santosh/sp_ws/install/control_robo/share/control_robo/environment/ament_prefix_path.dsv
+/home/santosh/sp_ws/install/control_robo/share/control_robo/environment/path.sh
+/home/santosh/sp_ws/install/control_robo/share/control_robo/environment/path.dsv
+/home/santosh/sp_ws/install/control_robo/share/control_robo/local_setup.bash
+/home/santosh/sp_ws/install/control_robo/share/control_robo/local_setup.sh
+/home/santosh/sp_ws/install/control_robo/share/control_robo/local_setup.zsh
+/home/santosh/sp_ws/install/control_robo/share/control_robo/local_setup.dsv
+/home/santosh/sp_ws/install/control_robo/share/control_robo/package.dsv
+/home/santosh/sp_ws/install/control_robo/share/ament_index/resource_index/packages/control_robo
+/home/santosh/sp_ws/install/control_robo/share/control_robo/cmake/control_roboConfig.cmake
+/home/santosh/sp_ws/install/control_robo/share/control_robo/cmake/control_roboConfig-version.cmake
+/home/santosh/sp_ws/install/control_robo/share/control_robo/package.xml

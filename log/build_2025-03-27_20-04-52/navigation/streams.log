@@ -1,0 +1,104 @@
+[0.158s] Invoking command in '/home/santosh/sp_ws/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/navigation -- -j12 -l12
+[0.213s] [ 16%] [32mBuilding CXX object CMakeFiles/multi_goal.dir/scripts/robot_runner.cpp.o[0m
+[0.215s] [ 33%] [32mBuilding CXX object CMakeFiles/single_goal.dir/scripts/robot_runner_single_goal.cpp.o[0m
+[0.218s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_node.dir/scripts/tf_pub.cpp.o[0m
+[2.426s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.426s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.426s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.426s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.427s]                  from [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:1[m[K:
+[2.427s] [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:[m[K In member function ‘[01m[Kvoid MultiGoalNavigationNode::send_next_goal()[m[K’:
+[2.427s] [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:67:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.427s]    67 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Sending goal %d: (%.2f, %.2f)"[m[K, [32m[Kgoal_index_ + 1[m[K, goals_[goal_index_][0], goals_[goal_index_][1]);
+[2.427s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~[m[K
+[2.427s]       |                                                                                      [32m[K|[m[K
+[2.427s]       |                                                                                      [32m[Ksize_t {aka long unsigned int}[m[K
+[2.427s] [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:67:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.427s]    67 |         RCLCPP_INFO(this->get_logger(), "Sending goal [01;36m[K%d[m[K: (%.2f, %.2f)", goal_index_ + 1, goals_[goal_index_][0], goals_[goal_index_][1]);
+[2.428s]       |                                                       [01;36m[K~^[m[K
+[2.428s]       |                                                        [01;36m[K|[m[K
+[2.428s]       |                                                        [01;36m[Kint[m[K
+[2.428s]       |                                                       [32m[K%ld[m[K
+[2.439s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.439s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.439s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.439s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.439s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.439s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.440s]                  from [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:1[m[K:
+[2.440s] [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:[m[K In member function ‘[01m[Kvoid MultiGoalNavigationNode::result_callback(const rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::WrappedResult&)[m[K’:
+[2.440s] [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:88:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.440s]    88 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Goal %d reached successfully"[m[K, [32m[Kgoal_index_ + 1[m[K);
+[2.440s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~[m[K
+[2.440s]       |                                                                                         [32m[K|[m[K
+[2.440s]       |                                                                                         [32m[Ksize_t {aka long unsigned int}[m[K
+[2.440s] [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:88:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.440s]    88 |             RCLCPP_INFO(this->get_logger(), "Goal [01;36m[K%d[m[K reached successfully", goal_index_ + 1);
+[2.440s]       |                                                   [01;36m[K~^[m[K
+[2.440s]       |                                                    [01;36m[K|[m[K
+[2.440s]       |                                                    [01;36m[Kint[m[K
+[2.441s]       |                                                   [32m[K%ld[m[K
+[2.441s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.441s]                  from [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:1[m[K:
+[2.441s] [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:90:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.441s]    90 |             RCLCPP_ERROR(this->get_logger(), [01;35m[K"Goal %d was aborted"[m[K, [32m[Kgoal_index_ + 1[m[K);
+[2.441s]       |                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~[m[K
+[2.441s]       |                                                                                 [32m[K|[m[K
+[2.442s]       |                                                                                 [32m[Ksize_t {aka long unsigned int}[m[K
+[2.442s] [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:90:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.442s]    90 |             RCLCPP_ERROR(this->get_logger(), "Goal [01;36m[K%d[m[K was aborted", goal_index_ + 1);
+[2.442s]       |                                                    [01;36m[K~^[m[K
+[2.442s]       |                                                     [01;36m[K|[m[K
+[2.442s]       |                                                     [01;36m[Kint[m[K
+[2.442s]       |                                                    [32m[K%ld[m[K
+[2.442s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.443s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.443s]                  from [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:1[m[K:
+[2.443s] [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:92:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.443s]    92 |             RCLCPP_ERROR(this->get_logger(), [01;35m[K"Goal %d was canceled"[m[K, [32m[Kgoal_index_ + 1[m[K);
+[2.443s]       |                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~[m[K
+[2.443s]       |                                                                                  [32m[K|[m[K
+[2.443s]       |                                                                                  [32m[Ksize_t {aka long unsigned int}[m[K
+[2.443s] [01m[K/home/santosh/sp_ws/src/navigation/scripts/robot_runner.cpp:92:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.443s]    92 |             RCLCPP_ERROR(this->get_logger(), "Goal [01;36m[K%d[m[K was canceled", goal_index_ + 1);
+[2.443s]       |                                                    [01;36m[K~^[m[K
+[2.443s]       |                                                     [01;36m[K|[m[K
+[2.443s]       |                                                     [01;36m[Kint[m[K
+[2.443s]       |                                                    [32m[K%ld[m[K
+[3.456s] [ 66%] [32m[1mLinking CXX executable tf_node[0m
+[3.594s] [ 66%] Built target tf_node
+[4.423s] [ 83%] [32m[1mLinking CXX executable multi_goal[0m
+[4.592s] [ 83%] Built target multi_goal
+[4.600s] [100%] [32m[1mLinking CXX executable single_goal[0m
+[4.761s] [100%] Built target single_goal

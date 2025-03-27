@@ -1,0 +1,55 @@
+[0.179s] Invoking command in '/home/santosh/sp_ws/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/navigation -- -j12 -l12
+[0.220s] [35m[1mConsolidate compiler generated dependencies of target single_goal[0m
+[0.224s] [35m[1mConsolidate compiler generated dependencies of target multi_goal[0m
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target tf_node[0m
+[0.237s] [ 33%] Built target single_goal
+[0.240s] [ 66%] Built target tf_node
+[0.242s] [100%] Built target multi_goal
+[0.266s] Invoked command in '/home/santosh/sp_ws/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/navigation -- -j12 -l12
+[0.267s] Invoking command in '/home/santosh/sp_ws/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/navigation
+[0.272s] -- Install configuration: ""
+[0.272s] -- Execute custom install script
+[0.273s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/launch/bringup.launch.py
+[0.280s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/launch/bringup_real_robo.launch.py
+[0.287s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/launch/ekf.launch.py
+[0.296s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/launch/navigation.launch.py
+[0.305s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/launch/wd_world.launch.py
+[0.313s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/scripts/four_point_nav.py
+[0.321s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/scripts/robot_runner.cpp
+[0.331s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/scripts/robot_runner_single_goal.cpp
+[0.341s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/scripts/tf_pub.cpp
+[0.351s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/mv_world.world
+[0.361s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/my_world/main_boundry/Untitled/model.config
+[0.367s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/my_world/main_boundry/Untitled/model.sdf
+[0.374s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/my_world/main_boundry/model.config
+[0.380s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/my_world/main_boundry/model.sdf
+[0.389s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/my_world/model.config
+[0.396s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/my_world/model.sdf
+[0.402s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/new2_world.world
+[0.408s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/new3_world.world
+[0.415s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/new4_world.world
+[0.422s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/new5_world.world
+[0.428s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/new_world.world
+[0.435s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/config/ekf.yaml
+[0.443s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/config/params.yaml
+[0.452s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/map/nv7_map.pgm
+[0.458s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/map/nv7_map.yaml
+[0.465s] -- Symlinking: /home/santosh/sp_ws/install/navigation/lib/navigation/tf_node
+[0.472s] -- Symlinking: /home/santosh/sp_ws/install/navigation/lib/navigation/single_goal
+[0.478s] -- Symlinking: /home/santosh/sp_ws/install/navigation/lib/navigation/multi_goal
+[0.488s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation
+[0.498s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation
+[0.508s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/environment/ament_prefix_path.sh
+[0.516s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/environment/ament_prefix_path.dsv
+[0.527s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/environment/path.sh
+[0.534s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/environment/path.dsv
+[0.544s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/local_setup.bash
+[0.554s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/local_setup.sh
+[0.561s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/local_setup.zsh
+[0.569s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/local_setup.dsv
+[0.580s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/package.dsv
+[0.590s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/ament_index/resource_index/packages/navigation
+[0.600s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/cmake/navigationConfig.cmake
+[0.611s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/cmake/navigationConfig-version.cmake
+[0.618s] -- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/package.xml
+[0.627s] Invoked command in '/home/santosh/sp_ws/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/navigation

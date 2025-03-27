@@ -1,0 +1,171 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found core: 0.0.0 (/home/santosh/sp_ws/install/core/share/core/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/santosh/sp_ws/build/description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/base.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/body.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/body_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/fl.hip.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/fl.lleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/fl.uleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/fr.hip.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/fr.lleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/fr.uleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/front_left_hip.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/front_left_hip_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/front_left_lower_leg.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/front_left_lower_leg_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/front_left_upper_leg.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/front_left_upper_leg_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/front_right_hip.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/front_right_hip_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/front_right_lower_leg.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/front_right_lower_leg_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/front_right_upper_leg.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/front_right_upper_leg_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/hl.hip.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/hl.lleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/hl.uleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/hr.hip.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/hr.lleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/hr.uleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/lidar_mount.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/lidar_mount_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/my_world.world
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/pack_body.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/pack_top.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/rear_left_hip.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/rear_left_hip_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/rear_left_lower_leg.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/rear_left_lower_leg_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/rear_left_upper_leg.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/rear_left_upper_leg_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/rear_right_hip.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/rear_right_hip_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/rear_right_lower_leg.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/rear_right_lower_leg_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/rear_right_upper_leg.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/rear_right_upper_leg_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/spot_mat.png
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/velo.dae
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/velo_collision.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/meshes/velodyne_cage.stl
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/urdf/spot_mini/model.urdf
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/base.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/body.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/fr.hip.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/fr.lleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/fr.uleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/hip.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/hl.hip.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/hl.lleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/hl.uleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/hr.hip.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/hr.lleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/hr.uleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/lleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/meshes/uleg.obj
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/spot_mat.png
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/model/xml/spot_mini/spot_mini.xml
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/base.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/body.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/body_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/fl.hip.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/fl.lleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/fl.uleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/fr.hip.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/fr.lleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/fr.uleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/front_left_hip.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/front_left_hip_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/front_left_lower_leg.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/front_left_lower_leg_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/front_left_upper_leg.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/front_left_upper_leg_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/front_right_hip.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/front_right_hip_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/front_right_lower_leg.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/front_right_lower_leg_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/front_right_upper_leg.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/front_right_upper_leg_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/hl.hip.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/hl.lleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/hl.uleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/hr.hip.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/hr.lleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/hr.uleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/lidar_mount.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/lidar_mount_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/my_world.world
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/pack_body.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/pack_top.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/rear_left_hip.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/rear_left_hip_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/rear_left_lower_leg.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/rear_left_lower_leg_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/rear_left_upper_leg.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/rear_left_upper_leg_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/rear_right_hip.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/rear_right_hip_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/rear_right_lower_leg.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/rear_right_lower_leg_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/rear_right_upper_leg.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/rear_right_upper_leg_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/spot_mat.png
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/velo.dae
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/velo_collision.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/meshes/velodyne_cage.stl
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/urdf/spot_mini/model.urdf
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/base.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/body.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/fr.hip.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/fr.lleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/fr.uleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/hip.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/hl.hip.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/hl.lleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/hl.uleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/hr.hip.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/hr.lleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/hr.uleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/lleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/meshes/uleg.obj
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/spot_mat.png
+-- Up-to-date symlink: /home/santosh/sp_ws/install/description/share/description//model/xml/spot_mini/spot_mini.xml
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description//config/rviz.rviz
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description//config/rviz_2.rviz
+-- Symlinking: /home/santosh/sp_ws/install/description/share/ament_index/resource_index/package_run_dependencies/description
+-- Symlinking: /home/santosh/sp_ws/install/description/share/ament_index/resource_index/parent_prefix_path/description
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/environment/ament_prefix_path.sh
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/environment/path.sh
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/environment/path.dsv
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/local_setup.bash
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/local_setup.sh
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/local_setup.zsh
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/local_setup.dsv
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/package.dsv
+-- Symlinking: /home/santosh/sp_ws/install/description/share/ament_index/resource_index/packages/description
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/cmake/descriptionConfig.cmake
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/cmake/descriptionConfig-version.cmake
+-- Symlinking: /home/santosh/sp_ws/install/description/share/description/package.xml

@@ -1,0 +1,9 @@
+/home/santosh/sp_ws/build/control_robo/CMakeFiles/uninstall.dir
+/home/santosh/sp_ws/build/control_robo/CMakeFiles/control_robo_uninstall.dir
+/home/santosh/sp_ws/build/control_robo/CMakeFiles/test.dir
+/home/santosh/sp_ws/build/control_robo/CMakeFiles/edit_cache.dir
+/home/santosh/sp_ws/build/control_robo/CMakeFiles/rebuild_cache.dir
+/home/santosh/sp_ws/build/control_robo/CMakeFiles/list_install_components.dir
+/home/santosh/sp_ws/build/control_robo/CMakeFiles/install.dir
+/home/santosh/sp_ws/build/control_robo/CMakeFiles/install/local.dir
+/home/santosh/sp_ws/build/control_robo/CMakeFiles/install/strip.dir

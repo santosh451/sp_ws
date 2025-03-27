@@ -1,0 +1,613 @@
+[0.088s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.088s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a349cb77250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a349cb76c80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a349cb76c80>>)
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.120s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/santosh/sp_ws'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_slam' with type 'ros.ament_python' and name 'cartographer_slam'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/communication' with type 'ros.ament_cmake' and name 'communication'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_robo) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_robo) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_robo) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_robo) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_robo) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_robo) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_robo) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_robo) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_robo) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_robo' with type 'ros.ament_cmake' and name 'control_robo'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/core' with type 'ros.ament_cmake' and name 'core'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/description' with type 'ros.ament_cmake' and name 'description'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_pkg) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_pkg) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_pkg) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_pkg) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_pkg) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_pkg) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_pkg) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_pkg) by extension 'ros'
+[0.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ik_pkg' with type 'ros.ament_cmake' and name 'ik_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ros'
+[0.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation' with type 'ros.ament_cmake' and name 'navigation'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'ros'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['cmake', 'python']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'cmake'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'python'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['python_setup_py']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'python_setup_py'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extension 'ros'
+[0.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation/mujoco' with type 'ros.ament_cmake' and name 'mujoco'
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.162s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/santosh/sp_ws/install
+[0.164s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 428 installed packages in /opt/ros/humble
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_target' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.197s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/santosh/sp_ws/build/cartographer_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/santosh/sp_ws/install/cartographer_slam', 'merge_install': False, 'path': '/home/santosh/sp_ws/src/cartographer_slam', 'symlink_install': True, 'test_result_base': None}
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_target' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_clean_cache' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_clean_first' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_force_configure' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'ament_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'catkin_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.197s] DEBUG:colcon.colcon_core.verb:Building package 'communication' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/santosh/sp_ws/build/communication', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/santosh/sp_ws/install/communication', 'merge_install': False, 'path': '/home/santosh/sp_ws/src/communication', 'symlink_install': True, 'test_result_base': None}
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'control_robo' build argument 'cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'control_robo' build argument 'cmake_target' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'control_robo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'control_robo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'control_robo' build argument 'cmake_clean_first' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'control_robo' build argument 'cmake_force_configure' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'control_robo' build argument 'ament_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'control_robo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'control_robo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.197s] DEBUG:colcon.colcon_core.verb:Building package 'control_robo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/santosh/sp_ws/build/control_robo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/santosh/sp_ws/install/control_robo', 'merge_install': False, 'path': '/home/santosh/sp_ws/src/control_robo', 'symlink_install': True, 'test_result_base': None}
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_args' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_target' from command line to 'None'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_clean_first' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_force_configure' from command line to 'False'
+[0.197s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'ament_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.198s] DEBUG:colcon.colcon_core.verb:Building package 'core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/santosh/sp_ws/build/core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/santosh/sp_ws/install/core', 'merge_install': False, 'path': '/home/santosh/sp_ws/src/core', 'symlink_install': True, 'test_result_base': None}
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_target' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_clean_first' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_force_configure' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'ament_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.198s] DEBUG:colcon.colcon_core.verb:Building package 'description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/santosh/sp_ws/build/description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/santosh/sp_ws/install/description', 'merge_install': False, 'path': '/home/santosh/sp_ws/src/description', 'symlink_install': True, 'test_result_base': None}
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'ik_pkg' build argument 'cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'ik_pkg' build argument 'cmake_target' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'ik_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'ik_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'ik_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'ik_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'ik_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'ik_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'ik_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.198s] DEBUG:colcon.colcon_core.verb:Building package 'ik_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/santosh/sp_ws/build/ik_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/santosh/sp_ws/install/ik_pkg', 'merge_install': False, 'path': '/home/santosh/sp_ws/src/ik_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.198s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.198s] DEBUG:colcon.colcon_core.verb:Building package 'navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/santosh/sp_ws/build/navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/santosh/sp_ws/install/navigation', 'merge_install': False, 'path': '/home/santosh/sp_ws/src/navigation', 'symlink_install': True, 'test_result_base': None}
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'cmake_target' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'cmake_clean_first' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'cmake_force_configure' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'ament_cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.199s] DEBUG:colcon.colcon_core.verb:Building package 'mujoco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/santosh/sp_ws/build/mujoco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/santosh/sp_ws/install/mujoco', 'merge_install': False, 'path': '/home/santosh/sp_ws/src/simulation/mujoco', 'symlink_install': True, 'test_result_base': None}
+[0.199s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.200s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/santosh/sp_ws/src/communication' with build type 'ament_cmake'
+[0.200s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/santosh/sp_ws/src/communication'
+[0.202s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.206s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/santosh/sp_ws/src/cartographer_slam' with build type 'ament_python'
+[0.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_slam', 'ament_prefix_path')
+[0.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/hook/ament_prefix_path.ps1'
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/hook/ament_prefix_path.dsv'
+[0.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/hook/ament_prefix_path.sh'
+[0.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.213s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/santosh/sp_ws/src/control_robo' with build type 'ament_cmake'
+[0.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/santosh/sp_ws/src/control_robo'
+[0.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.216s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/santosh/sp_ws/src/core' with build type 'ament_cmake'
+[0.216s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/santosh/sp_ws/src/core'
+[0.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.219s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/santosh/sp_ws/src/description' with build type 'ament_cmake'
+[0.219s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/santosh/sp_ws/src/description'
+[0.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.222s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/santosh/sp_ws/src/ik_pkg' with build type 'ament_cmake'
+[0.222s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/santosh/sp_ws/src/ik_pkg'
+[0.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.225s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/santosh/sp_ws/src/navigation' with build type 'ament_cmake'
+[0.225s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/santosh/sp_ws/src/navigation'
+[0.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/communication -- -j12 -l12
+[0.394s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/santosh/sp_ws/src/cartographer_slam'
+[0.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/control_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/control_robo -- -j12 -l12
+[0.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/core -- -j12 -l12
+[0.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/description -- -j12 -l12
+[0.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/ik_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/ik_pkg -- -j12 -l12
+[0.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/navigation -- -j12 -l12
+[0.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/control_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/control_robo -- -j12 -l12
+[0.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/control_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/control_robo
+[0.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/description -- -j12 -l12
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/description
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/core -- -j12 -l12
+[0.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/core
+[0.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_robo)
+[0.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/control_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/control_robo
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/control_robo' for CMake module files
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/control_robo' for CMake config files
+[0.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_robo', 'cmake_prefix_path')
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/control_robo/share/control_robo/hook/cmake_prefix_path.ps1'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/control_robo/share/control_robo/hook/cmake_prefix_path.dsv'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/control_robo/share/control_robo/hook/cmake_prefix_path.sh'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/control_robo/bin'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/control_robo/lib/pkgconfig/control_robo.pc'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/control_robo/lib/python3.10/site-packages'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/control_robo/bin'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/control_robo/share/control_robo/package.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/control_robo/share/control_robo/package.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/control_robo/share/control_robo/package.sh'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/control_robo/share/control_robo/package.bash'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/control_robo/share/control_robo/package.zsh'
+[0.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/control_robo/share/colcon-core/packages/control_robo)
+[0.514s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_robo)
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/control_robo' for CMake module files
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/control_robo' for CMake config files
+[0.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_robo', 'cmake_prefix_path')
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/control_robo/share/control_robo/hook/cmake_prefix_path.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/control_robo/share/control_robo/hook/cmake_prefix_path.dsv'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/control_robo/share/control_robo/hook/cmake_prefix_path.sh'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/control_robo/bin'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/control_robo/lib/pkgconfig/control_robo.pc'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/control_robo/lib/python3.10/site-packages'
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/control_robo/bin'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/control_robo/share/control_robo/package.ps1'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/control_robo/share/control_robo/package.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/control_robo/share/control_robo/package.sh'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/control_robo/share/control_robo/package.bash'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/control_robo/share/control_robo/package.zsh'
+[0.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/control_robo/share/colcon-core/packages/control_robo)
+[0.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(description)
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/description' for CMake module files
+[0.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/description
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/description' for CMake config files
+[0.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('description', 'cmake_prefix_path')
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/description/share/description/hook/cmake_prefix_path.ps1'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/description/share/description/hook/cmake_prefix_path.dsv'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/description/share/description/hook/cmake_prefix_path.sh'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/description/bin'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/description/lib/pkgconfig/description.pc'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/description/lib/python3.10/site-packages'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/description/bin'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/description/share/description/package.ps1'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/description/share/description/package.dsv'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/description/share/description/package.sh'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/description/share/description/package.bash'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/description/share/description/package.zsh'
+[0.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/description/share/colcon-core/packages/description)
+[0.529s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(description)
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/description' for CMake module files
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/description' for CMake config files
+[0.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('description', 'cmake_prefix_path')
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/description/share/description/hook/cmake_prefix_path.ps1'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/description/share/description/hook/cmake_prefix_path.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/description/share/description/hook/cmake_prefix_path.sh'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/description/bin'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/description/lib/pkgconfig/description.pc'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/description/lib/python3.10/site-packages'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/description/bin'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/description/share/description/package.ps1'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/description/share/description/package.dsv'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/description/share/description/package.sh'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/description/share/description/package.bash'
+[0.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/description/share/description/package.zsh'
+[0.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/description/share/colcon-core/packages/description)
+[0.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/ik_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/ik_pkg -- -j12 -l12
+[0.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/ik_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/ik_pkg
+[0.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(core)
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core' for CMake module files
+[0.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/core
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core' for CMake config files
+[0.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'cmake_prefix_path')
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/core/share/core/hook/cmake_prefix_path.ps1'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/core/share/core/hook/cmake_prefix_path.dsv'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/core/share/core/hook/cmake_prefix_path.sh'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core/lib'
+[0.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'ld_library_path_lib')
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/core/share/core/hook/ld_library_path_lib.ps1'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/core/share/core/hook/ld_library_path_lib.dsv'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/core/share/core/hook/ld_library_path_lib.sh'
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core/bin'
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core/lib/pkgconfig/core.pc'
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core/lib/python3.10/site-packages'
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core/bin'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/core/share/core/package.ps1'
+[0.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/core/share/core/package.dsv'
+[0.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/core/share/core/package.sh'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/core/share/core/package.bash'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/core/share/core/package.zsh'
+[0.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/core/share/colcon-core/packages/core)
+[0.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(core)
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core' for CMake module files
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core' for CMake config files
+[0.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'cmake_prefix_path')
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/core/share/core/hook/cmake_prefix_path.ps1'
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/core/share/core/hook/cmake_prefix_path.dsv'
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/core/share/core/hook/cmake_prefix_path.sh'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core/lib'
+[0.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'ld_library_path_lib')
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/core/share/core/hook/ld_library_path_lib.ps1'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/core/share/core/hook/ld_library_path_lib.dsv'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/core/share/core/hook/ld_library_path_lib.sh'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core/bin'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core/lib/pkgconfig/core.pc'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core/lib/python3.10/site-packages'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/core/bin'
+[0.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/core/share/core/package.ps1'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/core/share/core/package.dsv'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/core/share/core/package.sh'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/core/share/core/package.bash'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/core/share/core/package.zsh'
+[0.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/core/share/colcon-core/packages/core)
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/navigation -- -j12 -l12
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/navigation
+[0.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ik_pkg)
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg' for CMake module files
+[0.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/ik_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/ik_pkg
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg' for CMake config files
+[0.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('ik_pkg', 'cmake_prefix_path')
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/hook/cmake_prefix_path.ps1'
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/hook/cmake_prefix_path.dsv'
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/hook/cmake_prefix_path.sh'
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg/lib'
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg/bin'
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg/lib/pkgconfig/ik_pkg.pc'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg/lib/python3.10/site-packages'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg/bin'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/package.ps1'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/package.dsv'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/package.sh'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/package.bash'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/package.zsh'
+[0.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/ik_pkg/share/colcon-core/packages/ik_pkg)
+[0.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ik_pkg)
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg' for CMake module files
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg' for CMake config files
+[0.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('ik_pkg', 'cmake_prefix_path')
+[0.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/hook/cmake_prefix_path.ps1'
+[0.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/hook/cmake_prefix_path.dsv'
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/hook/cmake_prefix_path.sh'
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg/lib'
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg/bin'
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg/lib/pkgconfig/ik_pkg.pc'
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg/lib/python3.10/site-packages'
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/ik_pkg/bin'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/package.ps1'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/package.dsv'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/package.sh'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/package.bash'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/package.zsh'
+[0.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/ik_pkg/share/colcon-core/packages/ik_pkg)
+[0.584s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation)
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation' for CMake module files
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/navigation
+[0.585s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation' for CMake config files
+[0.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'cmake_prefix_path')
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/navigation/share/navigation/hook/cmake_prefix_path.ps1'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/navigation/share/navigation/hook/cmake_prefix_path.dsv'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/navigation/share/navigation/hook/cmake_prefix_path.sh'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation/lib'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation/bin'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation/lib/pkgconfig/navigation.pc'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation/lib/python3.10/site-packages'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation/bin'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/navigation/share/navigation/package.ps1'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/navigation/share/navigation/package.dsv'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/navigation/share/navigation/package.sh'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/navigation/share/navigation/package.bash'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/navigation/share/navigation/package.zsh'
+[0.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/navigation/share/colcon-core/packages/navigation)
+[0.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation)
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation' for CMake module files
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation' for CMake config files
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'cmake_prefix_path')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/navigation/share/navigation/hook/cmake_prefix_path.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/navigation/share/navigation/hook/cmake_prefix_path.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/navigation/share/navigation/hook/cmake_prefix_path.sh'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation/lib'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation/bin'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation/lib/pkgconfig/navigation.pc'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation/lib/python3.10/site-packages'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/navigation/bin'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/navigation/share/navigation/package.ps1'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/navigation/share/navigation/package.dsv'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/navigation/share/navigation/package.sh'
+[0.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/navigation/share/navigation/package.bash'
+[0.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/navigation/share/navigation/package.zsh'
+[0.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/navigation/share/colcon-core/packages/navigation)
+[0.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/communication -- -j12 -l12
+[0.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/communication
+[0.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(communication)
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication' for CMake module files
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/communication
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication' for CMake config files
+[0.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication', 'cmake_prefix_path')
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/communication/share/communication/hook/cmake_prefix_path.ps1'
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/communication/share/communication/hook/cmake_prefix_path.dsv'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/communication/share/communication/hook/cmake_prefix_path.sh'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication/lib'
+[0.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication', 'ld_library_path_lib')
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/communication/share/communication/hook/ld_library_path_lib.ps1'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/communication/share/communication/hook/ld_library_path_lib.dsv'
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/communication/share/communication/hook/ld_library_path_lib.sh'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication/bin'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication/lib/pkgconfig/communication.pc'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication/lib/python3.10/site-packages'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication/bin'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/communication/share/communication/package.ps1'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/communication/share/communication/package.dsv'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/communication/share/communication/package.sh'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/communication/share/communication/package.bash'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/communication/share/communication/package.zsh'
+[0.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/communication/share/colcon-core/packages/communication)
+[0.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(communication)
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication' for CMake module files
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication' for CMake config files
+[0.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication', 'cmake_prefix_path')
+[0.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/communication/share/communication/hook/cmake_prefix_path.ps1'
+[0.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/communication/share/communication/hook/cmake_prefix_path.dsv'
+[0.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/communication/share/communication/hook/cmake_prefix_path.sh'
+[0.685s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication/lib'
+[0.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication', 'ld_library_path_lib')
+[0.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/communication/share/communication/hook/ld_library_path_lib.ps1'
+[0.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/communication/share/communication/hook/ld_library_path_lib.dsv'
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/communication/share/communication/hook/ld_library_path_lib.sh'
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication/bin'
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication/lib/pkgconfig/communication.pc'
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication/lib/python3.10/site-packages'
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/communication/bin'
+[0.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/communication/share/communication/package.ps1'
+[0.687s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/communication/share/communication/package.dsv'
+[0.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/communication/share/communication/package.sh'
+[0.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/communication/share/communication/package.bash'
+[0.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/communication/share/communication/package.zsh'
+[0.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/communication/share/colcon-core/packages/communication)
+[0.688s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/santosh/sp_ws/src/simulation/mujoco' with build type 'ament_cmake'
+[0.688s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/santosh/sp_ws/src/simulation/mujoco'
+[0.688s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.688s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/mujoco': CMAKE_PREFIX_PATH=/home/santosh/sp_ws/install/communication:/home/santosh/sp_ws/install/navigation:/home/santosh/sp_ws/install/mujoco:/home/santosh/sp_ws/install/ik_pkg:/home/santosh/sp_ws/install/description:/home/santosh/sp_ws/install/core:/home/santosh/sp_ws/install/control_robo:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble LD_LIBRARY_PATH=/home/santosh/sp_ws/install/communication/lib:/home/santosh/sp_ws/install/core/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/santosh/.mujoco/mujoco210/bin:/usr/lib/nvidia /usr/bin/cmake --build /home/santosh/sp_ws/build/mujoco -- -j12 -l12
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/mujoco' returned '0': CMAKE_PREFIX_PATH=/home/santosh/sp_ws/install/communication:/home/santosh/sp_ws/install/navigation:/home/santosh/sp_ws/install/mujoco:/home/santosh/sp_ws/install/ik_pkg:/home/santosh/sp_ws/install/description:/home/santosh/sp_ws/install/core:/home/santosh/sp_ws/install/control_robo:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble LD_LIBRARY_PATH=/home/santosh/sp_ws/install/communication/lib:/home/santosh/sp_ws/install/core/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/santosh/.mujoco/mujoco210/bin:/usr/lib/nvidia /usr/bin/cmake --build /home/santosh/sp_ws/build/mujoco -- -j12 -l12
+[0.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/mujoco': CMAKE_PREFIX_PATH=/home/santosh/sp_ws/install/communication:/home/santosh/sp_ws/install/navigation:/home/santosh/sp_ws/install/mujoco:/home/santosh/sp_ws/install/ik_pkg:/home/santosh/sp_ws/install/description:/home/santosh/sp_ws/install/core:/home/santosh/sp_ws/install/control_robo:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble LD_LIBRARY_PATH=/home/santosh/sp_ws/install/communication/lib:/home/santosh/sp_ws/install/core/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/santosh/.mujoco/mujoco210/bin:/usr/lib/nvidia /usr/bin/cmake --install /home/santosh/sp_ws/build/mujoco
+[0.825s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco)
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco' for CMake module files
+[0.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/mujoco' returned '0': CMAKE_PREFIX_PATH=/home/santosh/sp_ws/install/communication:/home/santosh/sp_ws/install/navigation:/home/santosh/sp_ws/install/mujoco:/home/santosh/sp_ws/install/ik_pkg:/home/santosh/sp_ws/install/description:/home/santosh/sp_ws/install/core:/home/santosh/sp_ws/install/control_robo:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble LD_LIBRARY_PATH=/home/santosh/sp_ws/install/communication/lib:/home/santosh/sp_ws/install/core/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/santosh/.mujoco/mujoco210/bin:/usr/lib/nvidia /usr/bin/cmake --install /home/santosh/sp_ws/build/mujoco
+[0.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco', 'cmake_module_path')
+[0.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/mujoco/share/mujoco/hook/cmake_module_path.ps1'
+[0.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/mujoco/share/mujoco/hook/cmake_module_path.dsv'
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/mujoco/share/mujoco/hook/cmake_module_path.sh'
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco' for CMake config files
+[0.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco', 'cmake_prefix_path')
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/mujoco/share/mujoco/hook/cmake_prefix_path.ps1'
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/mujoco/share/mujoco/hook/cmake_prefix_path.dsv'
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/mujoco/share/mujoco/hook/cmake_prefix_path.sh'
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco/lib'
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco/bin'
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco/lib/pkgconfig/mujoco.pc'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco/lib/python3.10/site-packages'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco/bin'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/mujoco/share/mujoco/package.ps1'
+[0.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/mujoco/share/mujoco/package.dsv'
+[0.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/mujoco/share/mujoco/package.sh'
+[0.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/mujoco/share/mujoco/package.bash'
+[0.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/mujoco/share/mujoco/package.zsh'
+[0.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/mujoco/share/colcon-core/packages/mujoco)
+[0.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco)
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco' for CMake module files
+[0.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco', 'cmake_module_path')
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/mujoco/share/mujoco/hook/cmake_module_path.ps1'
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/mujoco/share/mujoco/hook/cmake_module_path.dsv'
+[0.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/mujoco/share/mujoco/hook/cmake_module_path.sh'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco' for CMake config files
+[0.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco', 'cmake_prefix_path')
+[0.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/mujoco/share/mujoco/hook/cmake_prefix_path.ps1'
+[0.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/mujoco/share/mujoco/hook/cmake_prefix_path.dsv'
+[0.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/mujoco/share/mujoco/hook/cmake_prefix_path.sh'
+[0.834s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco/lib'
+[0.834s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco/bin'
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco/lib/pkgconfig/mujoco.pc'
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco/lib/python3.10/site-packages'
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/mujoco/bin'
+[0.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/mujoco/share/mujoco/package.ps1'
+[0.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/mujoco/share/mujoco/package.dsv'
+[0.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/mujoco/share/mujoco/package.sh'
+[0.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/mujoco/share/mujoco/package.bash'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/mujoco/share/mujoco/package.zsh'
+[0.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/mujoco/share/colcon-core/packages/mujoco)
+[0.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/santosh/sp_ws/build/cartographer_slam': PYTHONPATH=/home/santosh/sp_ws/build/cartographer_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/santosh/sp_ws/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/santosh/sp_ws/build/cartographer_slam/build --no-deps symlink_data
+[1.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_slam', 'pythonpath_develop')
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/build/cartographer_slam/share/cartographer_slam/hook/pythonpath_develop.ps1'
+[1.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/santosh/sp_ws/build/cartographer_slam' returned '0': PYTHONPATH=/home/santosh/sp_ws/build/cartographer_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/santosh/sp_ws/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/santosh/sp_ws/build/cartographer_slam/build --no-deps symlink_data
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/build/cartographer_slam/share/cartographer_slam/hook/pythonpath_develop.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/build/cartographer_slam/share/cartographer_slam/hook/pythonpath_develop.sh'
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/cartographer_slam' for CMake module files
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/cartographer_slam' for CMake config files
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/cartographer_slam/lib'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/cartographer_slam/bin'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/cartographer_slam/lib/pkgconfig/cartographer_slam.pc'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/cartographer_slam/lib/python3.10/site-packages'
+[1.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_slam', 'pythonpath')
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/hook/pythonpath.ps1'
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/hook/pythonpath.dsv'
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/hook/pythonpath.sh'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/santosh/sp_ws/install/cartographer_slam/bin'
+[1.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_slam)
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/package.ps1'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/package.dsv'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/package.sh'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/package.bash'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/package.zsh'
+[1.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/santosh/sp_ws/install/cartographer_slam/share/colcon-core/packages/cartographer_slam)
+[1.320s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.321s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.325s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.333s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.333s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/santosh/sp_ws/install/local_setup.ps1'
+[1.334s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/santosh/sp_ws/install/_local_setup_util_ps1.py'
+[1.335s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/santosh/sp_ws/install/setup.ps1'
+[1.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/santosh/sp_ws/install/local_setup.sh'
+[1.337s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/santosh/sp_ws/install/_local_setup_util_sh.py'
+[1.338s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/santosh/sp_ws/install/setup.sh'
+[1.338s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/santosh/sp_ws/install/local_setup.bash'
+[1.339s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/santosh/sp_ws/install/setup.bash'
+[1.339s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/santosh/sp_ws/install/local_setup.zsh'
+[1.340s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/santosh/sp_ws/install/setup.zsh'

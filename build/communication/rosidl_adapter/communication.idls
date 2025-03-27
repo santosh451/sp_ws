@@ -1,0 +1,5 @@
+/home/santosh/sp_ws/build/communication/rosidl_adapter/communication:msg/ActuatorCmds.idl
+/home/santosh/sp_ws/build/communication/rosidl_adapter/communication:msg/MotionCommands.idl
+/home/santosh/sp_ws/build/communication/rosidl_adapter/communication:msg/TouchSensor.idl
+/home/santosh/sp_ws/build/communication/rosidl_adapter/communication:srv/SimulationReset.idl
+/home/santosh/sp_ws/build/communication/rosidl_adapter/communication:srv/GaitSwitch.idl

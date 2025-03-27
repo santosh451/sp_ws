@@ -1,0 +1,26 @@
+[0.555s] Invoking command in '/home/santosh/sp_ws/build/cartographer_slam': PYTHONPATH=/home/santosh/sp_ws/build/cartographer_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/santosh/sp_ws/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/santosh/sp_ws/build/cartographer_slam/build --no-deps symlink_data
+[0.786s] running develop
+[0.922s] running egg_info
+[0.922s] creating cartographer_slam.egg-info
+[0.932s] writing cartographer_slam.egg-info/PKG-INFO
+[0.932s] writing dependency_links to cartographer_slam.egg-info/dependency_links.txt
+[0.933s] writing requirements to cartographer_slam.egg-info/requires.txt
+[0.933s] writing top-level names to cartographer_slam.egg-info/top_level.txt
+[0.933s] writing manifest file 'cartographer_slam.egg-info/SOURCES.txt'
+[0.953s] reading manifest file 'cartographer_slam.egg-info/SOURCES.txt'
+[0.953s] writing manifest file 'cartographer_slam.egg-info/SOURCES.txt'
+[0.971s] running build_ext
+[0.971s] Creating /home/santosh/sp_ws/install/cartographer_slam/lib/python3.10/site-packages/cartographer-slam.egg-link (link to .)
+[0.972s] 
+[0.972s] Installed /home/santosh/sp_ws/build/cartographer_slam
+[0.972s] running symlink_data
+[0.972s] creating /home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/launch
+[0.972s] symbolically linking /home/santosh/sp_ws/build/cartographer_slam/launch/cartographer.launch.py -> /home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/launch
+[0.972s] creating /home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/config
+[0.972s] symbolically linking /home/santosh/sp_ws/build/cartographer_slam/config/cartographer.lua -> /home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam/config
+[0.972s] creating /home/santosh/sp_ws/install/cartographer_slam/share/ament_index
+[0.972s] creating /home/santosh/sp_ws/install/cartographer_slam/share/ament_index/resource_index
+[0.972s] creating /home/santosh/sp_ws/install/cartographer_slam/share/ament_index/resource_index/packages
+[0.972s] symbolically linking /home/santosh/sp_ws/build/cartographer_slam/resource/cartographer_slam -> /home/santosh/sp_ws/install/cartographer_slam/share/ament_index/resource_index/packages
+[0.972s] symbolically linking /home/santosh/sp_ws/build/cartographer_slam/package.xml -> /home/santosh/sp_ws/install/cartographer_slam/share/cartographer_slam
+[1.011s] Invoked command in '/home/santosh/sp_ws/build/cartographer_slam' returned '0': PYTHONPATH=/home/santosh/sp_ws/build/cartographer_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/santosh/sp_ws/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/santosh/sp_ws/build/cartographer_slam/build --no-deps symlink_data

@@ -1,0 +1,4 @@
+Invoking command in '/home/santosh/sp_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/communication -- -j12 -l12
+Invoked command in '/home/santosh/sp_ws/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/communication -- -j12 -l12
+Invoking command in '/home/santosh/sp_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/communication
+Invoked command in '/home/santosh/sp_ws/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/communication

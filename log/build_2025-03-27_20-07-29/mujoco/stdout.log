@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target simulation[0m
+[100%] Built target simulation
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/lib/mujoco/simulation
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/launch/simulation_launch.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/ament_index/resource_index/package_run_dependencies/mujoco
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/ament_index/resource_index/parent_prefix_path/mujoco
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/environment/path.sh
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/environment/path.dsv
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/local_setup.bash
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/local_setup.sh
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/local_setup.zsh
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/local_setup.dsv
+-- Symlinking: /home/santosh/sp_ws/install/mujoco/share/mujoco/package.dsv
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/ament_index/resource_index/packages/mujoco
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/cmake/CheckAvxSupport.cmake
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/cmake/FindOrFetch.cmake
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/cmake/MujocoHarden.cmake
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/cmake/MujocoLinkOptions.cmake
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/cmake/MujocoMacOS.cmake
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/cmake/SimulateDependencies.cmake
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/cmake/SimulateOptions.cmake
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/cmake/mujocoConfig.cmake
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/cmake/mujocoConfig-version.cmake
+-- Up-to-date symlink: /home/santosh/sp_ws/install/mujoco/share/mujoco/package.xml

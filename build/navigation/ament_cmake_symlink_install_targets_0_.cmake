@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/santosh/sp_ws/build/navigation/tf_node" "/home/santosh/sp_ws/build/navigation/single_goal" "/home/santosh/sp_ws/build/navigation/multi_goal" "TARGETS" "tf_node" "single_goal" "multi_goal" "DESTINATION" "lib/navigation")

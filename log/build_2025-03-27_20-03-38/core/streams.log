@@ -1,0 +1,63 @@
+[0.009s] Invoking command in '/home/santosh/sp_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake /home/santosh/sp_ws/src/core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/santosh/sp_ws/install/core
+[0.091s] -- The C compiler identification is GNU 11.4.0
+[0.132s] -- The CXX compiler identification is GNU 11.4.0
+[0.138s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.211s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.296s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.299s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.553s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.601s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.637s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.647s] -- Found rcpputils: 2.4.4 (/opt/ros/humble/share/rcpputils/cmake)
+[0.712s] -- Configuring done
+[0.714s] -- Generating done
+[0.715s] -- Build files have been written to: /home/santosh/sp_ws/build/core
+[0.720s] Invoked command in '/home/santosh/sp_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake /home/santosh/sp_ws/src/core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/santosh/sp_ws/install/core
+[0.721s] Invoking command in '/home/santosh/sp_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/core -- -j12 -l12
+[0.767s] [ 33%] [32mBuilding CXX object CMakeFiles/core.dir/src/misc/LinearAlgebra.cpp.o[0m
+[0.768s] [ 66%] [32mBuilding CXX object CMakeFiles/core.dir/src/Types.cpp.o[0m
+[13.618s] [100%] [32m[1mLinking CXX shared library libcore.so[0m
+[13.953s] [100%] Built target core
+[13.964s] Invoked command in '/home/santosh/sp_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --build /home/santosh/sp_ws/build/core -- -j12 -l12
+[13.972s] Invoking command in '/home/santosh/sp_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/core
+[13.978s] -- Install configuration: ""
+[13.978s] -- Execute custom install script
+[13.978s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/environment/library_path.sh
+[13.985s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/environment/library_path.dsv
+[13.991s] -- Symlinking: /home/santosh/sp_ws/install/core/include/core/Types.h
+[14.000s] -- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/Benchmark.h
+[14.006s] -- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/Buffer.h
+[14.012s] -- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/LinearAlgebra.h
+[14.018s] -- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/LoadData.h
+[14.026s] -- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/Lookup.h
+[14.034s] -- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/NumericTraits.h
+[14.040s] -- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/Numerics.h
+[14.047s] -- Symlinking: /home/santosh/sp_ws/install/core/share/ament_index/resource_index/package_run_dependencies/core
+[14.053s] -- Symlinking: /home/santosh/sp_ws/install/core/share/ament_index/resource_index/parent_prefix_path/core
+[14.061s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/environment/ament_prefix_path.sh
+[14.067s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/environment/ament_prefix_path.dsv
+[14.074s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/environment/path.sh
+[14.080s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/environment/path.dsv
+[14.086s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/local_setup.bash
+[14.092s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/local_setup.sh
+[14.098s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/local_setup.zsh
+[14.104s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/local_setup.dsv
+[14.110s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/package.dsv
+[14.116s] -- Symlinking: /home/santosh/sp_ws/install/core/share/ament_index/resource_index/packages/core
+[14.122s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/cmake/ament_cmake_export_targets-extras.cmake
+[14.128s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.134s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/cmake/coreConfig.cmake
+[14.140s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/cmake/coreConfig-version.cmake
+[14.146s] -- Symlinking: /home/santosh/sp_ws/install/core/share/core/package.xml
+[14.152s] -- Installing: /home/santosh/sp_ws/install/core/lib/libcore.so
+[14.159s] -- Set runtime path of "/home/santosh/sp_ws/install/core/lib/libcore.so" to ""
+[14.159s] -- Installing: /home/santosh/sp_ws/install/core/share/core/cmake/core_TargetsExport.cmake
+[14.159s] -- Installing: /home/santosh/sp_ws/install/core/share/core/cmake/core_TargetsExport-noconfig.cmake
+[14.160s] Invoked command in '/home/santosh/sp_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santosh/sp_ws/install/cartographer_slam:/opt/ros/humble /usr/bin/cmake --install /home/santosh/sp_ws/build/core

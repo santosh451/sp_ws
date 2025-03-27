@@ -1,0 +1,1 @@
+/home/santosh/sp_ws/build/communication/ament_cmake_core/communicationConfig.cmake

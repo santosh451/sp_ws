@@ -1,0 +1,217 @@
+[35m[1mConsolidate compiler generated dependencies of target communication__rosidl_generator_c[0m
+[ 11%] Built target communication__rosidl_generator_c
+[ 12%] Built target communication__cpp
+[ 12%] Built target ament_cmake_python_symlink_communication
+[35m[1mConsolidate compiler generated dependencies of target communication__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target communication__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target communication__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target communication__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target communication__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target communication__rosidl_typesupport_introspection_cpp[0m
+[ 23%] Built target communication__rosidl_typesupport_c
+[ 34%] Built target communication__rosidl_typesupport_introspection_c
+[ 55%] Built target communication__rosidl_typesupport_fastrtps_c
+[ 57%] Built target communication__rosidl_typesupport_fastrtps_cpp
+[ 68%] Built target communication__rosidl_typesupport_cpp
+[ 79%] Built target communication__rosidl_typesupport_introspection_cpp
+[ 79%] Built target communication
+[ 80%] Built target communication__py
+[35m[1mConsolidate compiler generated dependencies of target communication__rosidl_generator_py[0m
+[ 90%] Built target communication__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target communication__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target communication__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target communication__rosidl_typesupport_introspection_c__pyext[0m
+[ 93%] Built target communication__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target communication__rosidl_typesupport_c__pyext
+running egg_info
+[100%] Built target communication__rosidl_typesupport_introspection_c__pyext
+writing communication.egg-info/PKG-INFO
+writing dependency_links to communication.egg-info/dependency_links.txt
+writing top-level names to communication.egg-info/top_level.txt
+reading manifest file 'communication.egg-info/SOURCES.txt'
+writing manifest file 'communication.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_communication_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/ament_index/resource_index/rosidl_interfaces/communication
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/actuator_cmds.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/actuator_cmds__functions.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/actuator_cmds__struct.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/actuator_cmds__type_support.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/motion_commands__functions.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/motion_commands__struct.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/motion_commands__type_support.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/touch_sensor__functions.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/touch_sensor__struct.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/touch_sensor__type_support.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/motion_commands.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/touch_sensor.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/gait_switch__functions.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/gait_switch__struct.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/gait_switch__type_support.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/simulation_reset__functions.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/simulation_reset__struct.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/simulation_reset__type_support.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/gait_switch.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/simulation_reset.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/environment/library_path.sh
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/environment/library_path.dsv
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/actuator_cmds__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/motion_commands__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/touch_sensor__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/gait_switch__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/simulation_reset__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/actuator_cmds.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/actuator_cmds__builder.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/actuator_cmds__struct.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/actuator_cmds__traits.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/actuator_cmds__type_support.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/motion_commands__builder.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/motion_commands__struct.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/motion_commands__traits.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/motion_commands__type_support.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/touch_sensor__builder.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/touch_sensor__struct.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/touch_sensor__traits.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/touch_sensor__type_support.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/motion_commands.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/touch_sensor.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/gait_switch__builder.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/gait_switch__struct.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/gait_switch__traits.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/gait_switch__type_support.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/simulation_reset__builder.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/simulation_reset__struct.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/simulation_reset__traits.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/simulation_reset__type_support.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/gait_switch.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/simulation_reset.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/actuator_cmds__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/motion_commands__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/touch_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/gait_switch__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/simulation_reset__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/actuator_cmds__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/motion_commands__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/touch_sensor__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/gait_switch__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/simulation_reset__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/actuator_cmds__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/motion_commands__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/msg/detail/touch_sensor__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/gait_switch__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/include/communication/communication/srv/detail/simulation_reset__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/environment/pythonpath.sh
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/environment/pythonpath.dsv
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/__init__.py
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/_communication_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/_communication_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/_communication_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/communication_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/communication_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/communication_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/libcommunication__rosidl_generator_py.so
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/msg/__init__.py
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/msg/_actuator_cmds.py
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/msg/_actuator_cmds_s.c
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/msg/_motion_commands.py
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/msg/_motion_commands_s.c
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/msg/_touch_sensor.py
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/msg/_touch_sensor_s.c
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/srv/__init__.py
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/srv/_gait_switch.py
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/srv/_gait_switch_s.c
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/srv/_simulation_reset.py
+-- Symlinking: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/srv/_simulation_reset_s.c
+-- Up-to-date symlink: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/communication_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/communication_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/communication_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/msg/ActuatorCmds.idl
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/msg/MotionCommands.idl
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/msg/TouchSensor.idl
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/srv/SimulationReset.idl
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/srv/GaitSwitch.idl
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/msg/ActuatorCmds.msg
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/msg/MotionCommands.msg
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/msg/TouchSensor.msg
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/srv/SimulationReset.srv
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/srv/SimulationReset_Request.msg
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/srv/SimulationReset_Response.msg
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/srv/GaitSwitch.srv
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/srv/GaitSwitch_Request.msg
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/srv/GaitSwitch_Response.msg
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/ament_index/resource_index/package_run_dependencies/communication
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/ament_index/resource_index/parent_prefix_path/communication
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/environment/ament_prefix_path.sh
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/environment/ament_prefix_path.dsv
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/environment/path.sh
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/environment/path.dsv
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/local_setup.bash
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/local_setup.sh
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/local_setup.zsh
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/local_setup.dsv
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/package.dsv
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/ament_index/resource_index/packages/communication
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/cmake/communicationConfig.cmake
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/cmake/communicationConfig-version.cmake
+-- Symlinking: /home/santosh/sp_ws/install/communication/share/communication/package.xml
+-- Installing: /home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_generator_c.so
+-- Set runtime path of "/home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_generator_c.so" to ""
+-- Installing: /home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_typesupport_c.so
+-- Set runtime path of "/home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_typesupport_c.so" to ""
+-- Installing: /home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_typesupport_cpp.so" to ""
+Listing '/home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication'...
+Compiling '/home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/__init__.py'...
+Listing '/home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/msg'...
+Compiling '/home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/msg/__init__.py'...
+Compiling '/home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/msg/_actuator_cmds.py'...
+Compiling '/home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/msg/_motion_commands.py'...
+Compiling '/home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/msg/_touch_sensor.py'...
+Listing '/home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/srv'...
+Compiling '/home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/srv/__init__.py'...
+Compiling '/home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/srv/_gait_switch.py'...
+Compiling '/home/santosh/sp_ws/install/communication/local/lib/python3.10/dist-packages/communication/srv/_simulation_reset.py'...
+-- Installing: /home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_generator_py.so
+-- Set runtime path of "/home/santosh/sp_ws/install/communication/lib/libcommunication__rosidl_generator_py.so" to ""
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/export_communication__rosidl_generator_cExport.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/export_communication__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/export_communication__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/export_communication__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/export_communication__rosidl_generator_cppExport.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/export_communication__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/export_communication__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/communication__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/communication__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/communication__rosidl_typesupport_cExport.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/communication__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/communication__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/communication__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/communication__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/communication__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/export_communication__rosidl_generator_pyExport.cmake
+-- Installing: /home/santosh/sp_ws/install/communication/share/communication/cmake/export_communication__rosidl_generator_pyExport-noconfig.cmake

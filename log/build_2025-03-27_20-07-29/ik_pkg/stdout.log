@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target leg_run_2[0m
+[100%] Built target leg_run_2
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/launch/pose_pub.launch.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/scripts/mp_o_tf.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/scripts/pub_.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/scripts/pub_mod.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/scripts/test.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/scripts/test_mod.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/scripts/tf_pub.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/scripts/tre_jec.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/scripts/tre_jec_2.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/lib/ik_pkg/leg_run_2
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/lib/ik_pkg/tre_jec_2.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/lib/ik_pkg/test_mod.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/lib/ik_pkg/tf_pub.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/lib/ik_pkg/mp_o_tf.py
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ament_index/resource_index/package_run_dependencies/ik_pkg
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ament_index/resource_index/parent_prefix_path/ik_pkg
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/environment/path.sh
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/environment/path.dsv
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/local_setup.bash
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/local_setup.sh
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/local_setup.zsh
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/local_setup.dsv
+-- Symlinking: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/package.dsv
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ament_index/resource_index/packages/ik_pkg
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/cmake/ik_pkgConfig.cmake
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/cmake/ik_pkgConfig-version.cmake
+-- Up-to-date symlink: /home/santosh/sp_ws/install/ik_pkg/share/ik_pkg/package.xml

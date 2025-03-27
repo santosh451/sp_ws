@@ -1,0 +1,10 @@
+/home/santosh/sp_ws/src/core/build/CMakeFiles/uninstall.dir
+/home/santosh/sp_ws/src/core/build/CMakeFiles/core_uninstall.dir
+/home/santosh/sp_ws/src/core/build/CMakeFiles/core.dir
+/home/santosh/sp_ws/src/core/build/CMakeFiles/test.dir
+/home/santosh/sp_ws/src/core/build/CMakeFiles/edit_cache.dir
+/home/santosh/sp_ws/src/core/build/CMakeFiles/rebuild_cache.dir
+/home/santosh/sp_ws/src/core/build/CMakeFiles/list_install_components.dir
+/home/santosh/sp_ws/src/core/build/CMakeFiles/install.dir
+/home/santosh/sp_ws/src/core/build/CMakeFiles/install/local.dir
+/home/santosh/sp_ws/src/core/build/CMakeFiles/install/strip.dir

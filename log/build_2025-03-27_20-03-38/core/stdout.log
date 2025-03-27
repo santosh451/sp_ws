@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+-- Found rcpputils: 2.4.4 (/opt/ros/humble/share/rcpputils/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/santosh/sp_ws/build/core
+[ 33%] [32mBuilding CXX object CMakeFiles/core.dir/src/misc/LinearAlgebra.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/core.dir/src/Types.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libcore.so[0m
+[100%] Built target core
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/environment/library_path.sh
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/environment/library_path.dsv
+-- Symlinking: /home/santosh/sp_ws/install/core/include/core/Types.h
+-- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/Benchmark.h
+-- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/Buffer.h
+-- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/LinearAlgebra.h
+-- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/LoadData.h
+-- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/Lookup.h
+-- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/NumericTraits.h
+-- Symlinking: /home/santosh/sp_ws/install/core/include/core/misc/Numerics.h
+-- Symlinking: /home/santosh/sp_ws/install/core/share/ament_index/resource_index/package_run_dependencies/core
+-- Symlinking: /home/santosh/sp_ws/install/core/share/ament_index/resource_index/parent_prefix_path/core
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/environment/ament_prefix_path.sh
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/environment/ament_prefix_path.dsv
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/environment/path.sh
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/environment/path.dsv
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/local_setup.bash
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/local_setup.sh
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/local_setup.zsh
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/local_setup.dsv
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/package.dsv
+-- Symlinking: /home/santosh/sp_ws/install/core/share/ament_index/resource_index/packages/core
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/cmake/coreConfig.cmake
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/cmake/coreConfig-version.cmake
+-- Symlinking: /home/santosh/sp_ws/install/core/share/core/package.xml
+-- Installing: /home/santosh/sp_ws/install/core/lib/libcore.so
+-- Set runtime path of "/home/santosh/sp_ws/install/core/lib/libcore.so" to ""
+-- Installing: /home/santosh/sp_ws/install/core/share/core/cmake/core_TargetsExport.cmake
+-- Installing: /home/santosh/sp_ws/install/core/share/core/cmake/core_TargetsExport-noconfig.cmake

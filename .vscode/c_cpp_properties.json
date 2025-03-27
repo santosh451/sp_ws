@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/santosh/sp_ws/install/core/include/**",
+        "/home/santosh/sp_ws/install/communication/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/santosh/sp_ws/src/core/include/**",
+        "/home/santosh/sp_ws/src/simulation/mujoco/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

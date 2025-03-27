@@ -1,0 +1,51 @@
+[35m[1mConsolidate compiler generated dependencies of target single_goal[0m
+[35m[1mConsolidate compiler generated dependencies of target multi_goal[0m
+[35m[1mConsolidate compiler generated dependencies of target tf_node[0m
+[ 33%] Built target single_goal
+[ 66%] Built target tf_node
+[100%] Built target multi_goal
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/launch/bringup.launch.py
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/launch/bringup_real_robo.launch.py
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/launch/ekf.launch.py
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/launch/navigation.launch.py
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/launch/wd_world.launch.py
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/scripts/four_point_nav.py
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/scripts/robot_runner.cpp
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/scripts/robot_runner_single_goal.cpp
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/scripts/tf_pub.cpp
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/mv_world.world
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/my_world/main_boundry/Untitled/model.config
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/my_world/main_boundry/Untitled/model.sdf
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/my_world/main_boundry/model.config
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/my_world/main_boundry/model.sdf
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/my_world/model.config
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/my_world/model.sdf
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/new2_world.world
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/new3_world.world
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/new4_world.world
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/new5_world.world
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/worlds/new_world.world
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/config/ekf.yaml
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/config/params.yaml
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/map/nv7_map.pgm
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/map/nv7_map.yaml
+-- Symlinking: /home/santosh/sp_ws/install/navigation/lib/navigation/tf_node
+-- Symlinking: /home/santosh/sp_ws/install/navigation/lib/navigation/single_goal
+-- Symlinking: /home/santosh/sp_ws/install/navigation/lib/navigation/multi_goal
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/environment/ament_prefix_path.sh
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/environment/path.sh
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/environment/path.dsv
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/local_setup.bash
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/local_setup.sh
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/local_setup.zsh
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/local_setup.dsv
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/package.dsv
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/ament_index/resource_index/packages/navigation
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/cmake/navigationConfig.cmake
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/cmake/navigationConfig-version.cmake
+-- Symlinking: /home/santosh/sp_ws/install/navigation/share/navigation/package.xml

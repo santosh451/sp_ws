@@ -1,0 +1,1 @@
+/home/santosh/sp_ws/build/core/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "communication__py",
+		"source" : "/home/santosh/sp_ws/build/communication/communication__py"
+	}
+}
