@@ -107,6 +107,7 @@ Solved FK and IK of a leg and implemented them so that whenever data is publishe
 Implemented trot gait controller for the robot which will enable the robot to move in x y plane. This takes input from the cmd_vel and based on that calculates the step height length and theta and then publishes foot_pose.
 
 Implemented navigation stack on top of this so this will enable robot to move autonomously. Currently navigation is done only in the obstetrical free environment due to some issues with the depth topic data.
+Added depth cam topic (Obstetrical Layer) to local costmap but not able to test.
 
 Simulation pkg used:- 
 ```
